@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Epilogue:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@700&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+  background-color: black;
+}
+#locationsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    text-decoration: none;
+}
+
+.locations {
+    background: #e29911;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px #f25555;
+    text-decoration: none;
+    text-align: center;
+}
+
+.detalles {
+    padding: 15px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 10px 0;
+  text-align: center;
+  padding-top: 5px;
+  background: rgb(195,164,76);
+background: linear-gradient(90deg, rgba(195,164,76,1) 0%, rgba(212,195,83,1) 23%, rgba(176,142,46,1) 42%, rgba(181,161,88,1) 57%, rgba(164,138,40,1) 73%, rgba(193,161,85,1) 89%);
+}
+
+header h1, h2{
+  font-size: 30px;
+}
+
+header h2{
+  padding-top: 10px;
+}
+
